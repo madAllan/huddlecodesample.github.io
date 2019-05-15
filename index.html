@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<style>
+
+body{
+  margin:0;
+  background-color:hsl(214, 64%, 98%);
+
+}
+.container{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+padding:0 0%;
+}
+
+.bg-coloring{
+background-color: hsl(265, 100%, 66%);
+height:900px;
+border-radius: 50px;
+position: absolute;
+transform:rotate(60deg);
+left:40%;
+top:17%;
+width:2000px;
+padding-top: 100px;
+display: none;
+}
+
+
+h2{
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: bold;
+font-size: 2rem;
+margin-bottom:1%;
+
+}
+.get-started{
+  background-color:#ff8c94;
+  padding:20px 40px;
+  font-size: .9rem;
+  color:#fff;
+  margin-top:3%;
+  cursor: pointer;
+}
+/*************HEADER SECTION*****************/
+#header{
+  margin:5% 7% 0 7%;
+
+}
+.logo{
+  float:left;
+  margin-left: 7%;
+  width:140px;
+
+
+}
+.button-on-logo{
+  float:right;
+  margin-right:7%;
+  padding:.75% 2%;
+  font-size: .75rem;
+ z-index: 3;
+ position: relative;
+ cursor: pointer;
+background-color:#ff8c94;
+color: #fff;
+}
+
+
+/****************UPPER CONTENT SECTION*******************/
+#upper-content{
+  padding: 15% 7%;
+
+}
+
+.huddle-description{
+  padding:0 15%;
+  line-height: 1.7;
+
+}
+
+.huddle-image{
+  margin-bottom:7%;
+}
+.huddle-image img{
+  max-width: 70%;
+  margin:0 auto;
+  position:relative;
+}
+.huddle-text{
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding:0 3%;
+  color:hsl(208, 11%, 55%);
+
+}
+.conversation-image{
+padding:120px 0 180px 0;
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+  .huddle-text{
+    font-size: 90%;
+    letter-spacing: 1.5px;
+
+  }
+  h2{
+    font-size: 140%;
+  }
+  .huddle-description{
+    padding:0 5%;
+  }
+
+}
+@media (max-width:414px){
+.huddle-text{
+    font-size: 70%;
+    letter-spacing: 1.5px;
+
+  }
+  h2{
+    font-size: 120%;
+  }
+  .huddle-description{
+    padding:0 0%;
+  }
+.huddle-image img{
+  padding:0;
+  width:100%;
+}
+.huddle-image{
+margin-top: 20%;
+}
+
+}
+
+
+/***************LOWER CONTENT SECTION**************/
+#lower-content{
+padding-top: 0;
+ padding-bottom: 0;
+}
+.conversation-image{
+  float:left;
+  padding-bottom: 0;
+margin-bottom:7%;
+}
+.conversation{
+  text-align: left;
+  padding:2% 5%;
+  line-height: 1.5;
+
+  }
+.convo-2,.convo-3{
+  margin-top: 3%;
+}
+.conversation-image img{
+width:80%;
+
+}
+.convo-text{
+color: hsl(208, 11%, 55%);
+}
+@media (min-width: 768px) and (max-width:1024px){
+ .conversation{
+  text-align: center;
+ letter-spacing: 1.5px;
+ line-height: 1.5;
+ padding:4%;
+}
+}
+@media (max-width:414px){
+ .conversation{
+  text-align: center;
+ letter-spacing: 1.5px;
+ line-height: 1.5;
+ padding:4%;
+}
+h3{
+  font-size: 1.1rem;
+}
+.convo-text{
+  font-size: 50%;
+}
+}
+
+/*************CALL TO ACTION SECTION**************/
+#call-to-action{
+ padding:10% 20%;
+}
+.try-it-free{
+
+padding: 5% 10%;
+background-color: #fff;
+box-shadow:10px 20px  #eee;
+}
+h1{
+  font-size: 2rem;
+}
+.highlight{
+   color: hsl(208, 11%, 55%);
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+  #call-to-action{
+ padding:10% 0%;
+}
+.try-it-free{
+padding: 5% 5%;
+}
+.highlight{
+  font-size:.80rem;
+
+}
+h1{
+ margin-bottom:0;
+}
+.get-started{
+  margin-bottom: 5%;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width:414px){
+#call-to-action{
+  padding:5% 0;
+}
+.try-it-free{
+padding:7% 0;
+}
+h1{
+  font-size:1rem;
+}
+.highlight{
+  font-size:.55rem;
+}
+.container{
+padding:0 3%;
+}
+.try-it-free{
+padding:7% 0;
+}
+
+}
+
+/************FOOTER SECTION****************/
+#footer{
+  background-color: hsl(192, 100%, 9%);
+  margin:0;
+  padding:6% 8%;
+  color:#fff;
+box-sizing: border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+.column-1{
+text-align:left;
+}
+.footer-image{
+  text-align: left;
+  margin:0 5% 5% 0;
+
+}
+.social{
+  font-size: 1.8rem;
+}
+.copyright{
+  font-size: .85rem;
+}
+.column-1,.column-2,.column-3{
+  width:33.33%;
+float:left;
+
+}
+.column-1,.column-3{
+  padding-top: 0%;
+  text-align: left;
+}
+.first-column,.second-column{
+width:40%;
+  float:left;
+  text-align: left;
+  margin:0 5%;
+  font-size: 1.2rem;
+}
+.subscribe-info{
+  font-size: .85rem;
+
+}
+
+.hud{
+  position: absolute;
+  left:12%;
+  font-size: 2rem;
+}
+.linking{
+text-decoration: none;
+  color:#fff;
+}
+
+
+.text-input{
+  height:2rem;
+  width:90%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.btn{
+  padding:3% 10%;
+  margin-top: 3%;
+  background-color: #e4508f;
+  color:#fff;
+  font-size: .90rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width:414px){
+.column-1,.column-2,.column-3{
+  float:none;
+  width:100%;
+}
+.first-column,.second-column{
+float: none;
+width:100%;
+ font-size: 1rem;
+}
+.subscribe-info{
+font-size:.65rem;
+}
+.hud{
+  position: absolute;
+  left:90%;
+  font-size: 1rem;
+}
+}
+
+
+
+@media (max-width: 1024px){
+.first-column,.second-column{
+ font-size: .75rem;
+}
+.subscribe-info{
+font-size:.55rem;
+}
+.copyright{
+  font-size: .50rem;
+}
+.text-input{
+  height:1.7rem;
+  width:100%;
+  border-radius: 10px;
+  font-size: .8rem;
+}
+.hud{
+  position: absolute;
+  left:15%;
+  font-size: 1rem;
+}
+}
+@media (max-width:414px){
+  .hud{
+  position: absolute;
+  left:24%;
+  font-size: 1rem;
+}
+
+}
+
+
+</style>
+    <title>HOME</title>
+  </head>
+  <body>
+
+<div class="container">
+
+  <section id="header">
+  <img src="images/logo.svg" class='logo'/>
+  <button class="button-on-logo">Try It Free</button>
+  </section>
+
+<section id="upper-content">
+<div class="huddle-image">
+<img src="images/illustration-mockups.svg"/>
+</div>
+<div class="huddle-description">
+  <h2>Build The Community Your Fans Will Love </h2>
+  <p class="huddle-text">Huddle re-imagines the way we build communities.You have a voice,but so does your audience.Create connections with your users as you engage in genuine duscussion.</p>
+  <button class="get-started">Get Started For Free</button>
+
+</div>
+</section>
+
+
+
+<section id="lower-content">
+  <div class="conversation-image">
+    <img src="images/illustration-your-users.svg" />
+  </div>
+  <div class="conversation">
+    <div class="convo-1">
+      <h3>Flowing Conversations</h3>
+      <p class="convo-text">You wouldn't paginate a conversation in real life,so why do it online? Our threads just-in-time loading for a more natural flow. </p>
+    </div>
+
+ <div class="convo-2">
+      <h3>Grow Together</h3>
+      <p class="convo-text">Generate meaningful discussions with your audience and build a strong ,loyal community.Think of the insightful conversations you miss out on with a feedback form. </p>
+    </div>
+
+  <div class="convo-3">
+      <h3>Your Users</h3>
+      <p class="convo-text">It takes no time at all to integrate Huddle with your app's authetication solution.This means ,once signed in to your app,your users can start chatting immediately. </p>
+    </div>
+
+</div>
+</section>
+
+<section id="call-to-action">
+<div class="try-it-free">
+<h1>Try It Free</h1>
+<p class="highlight">Fully featured 30-day free trial-no credit card required</p>
+ <button class="get-started">Get Started For Free</button>
+
+</div>
+
+</section>
+
+<section id="footer">
+  <div class="footer-image"><img src="images/logo.svg" /><b class="hud">HUDDLE</b></div>
+<div class="column-1">
+  <div class="social">
+  <i class="fab fa-facebook-square"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-twitter-square"></i>
+  <p class="copyright">&copy; Copyright 2019 Huddle.All rights reserved.</p>
+  </div>
+
+</div>
+
+<div class="column-2">
+  <div class="first-column">
+    <p><a href="#" class="linking">About Us</a></p>
+    <p><a href="#" class="linking">What We Do</a></p>
+    <p><a href="#" class="linking">FAQ</a></p>
+  </div>
+  <div class="second-column">
+    <p><a href="#" class="linking">Career</a></p>
+    <p><a href="#" class="linking">Blog</a></p>
+    <p><a href="#" class="linking">Contact Us</a></p>
+
+  </div>
+</div>
+
+<div class="column-3">
+  <span class="subscribe">SUBSCRIBE</span>
+<p class="subscribe-info">To receive tips on how to grow your community, sign up to uor weekly newsletter.We'll never send you spam or pass on yuor email address.</p>
+<input type="text" class="text-input" placeholder="Your Email">
+<button class="btn">Subscribe</button>
+</div>
+<div style="clear:both;height:10px;background-color:hsl(192, 100%, 9%);"></div>
+</section>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
